@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.info-page {
+    text-align: center; 
+}
+
+.info-page h1 {
+    margin: 0;
+    background-color: #0e9c7e9a;
+    padding-bottom: 0.5rem;
+}
+
+.info-page h2 {
+    margin: 2rem auto;
+    padding: 0.5rem 0.5rem;
+    background-color: #0e9c7e9a;
+    color: white;
+}
+
+.info-page h3 {
+    display: inline-block;
+    margin: 0rem;
+    padding: 0.5rem 1rem;
+    background-color: #0e9c7e9a;
+    color: white;
+}
+
+.help-page {
+    text-align: center;
+}
+
+.help-page h1 {
+    margin: 0;
+    background-color: #0e9c7e9a;
+    padding-bottom: 0.5rem;
+}
+
+.help-page h2 {
+    margin: 1rem 47%;
+    background-color: #0e9c7e9a;
+    color: white;
+}
+
+.help-page .algorithms li {
+    margin: 1rem 0.5rem;
+}
+
+.help-page .visualizer-nav {
+    margin: 0 20%;
+    text-align: center;
+    height: auto;
+}
+
+.help-page .grid-options li {
+    margin: 0.75rem 1vw;
+}
+
+.help-page .grid-options {
+    margin: 0.5rem;
+}
+
+.help-page #example-tile {
+    display: inline-block;
+    height: 0.75rem;
+    width: 0.75rem;
+    border: 0.1rem solid #0e9c7e9a;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+}
+
+.navbar {
+    background:#09ac88;
+    width:100%;
+    height:6.5rem;
+    display: inline-block;
+}
+
+#title {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    -webkit-user-select: none; 
+    -moz-user-select: none;     
+    -ms-user-select: none;     
+    user-select: none; 
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.884);
+    padding-top: 0.5rem;
+}
+
+li , .content{
+    display: inline-block;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.content span {
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem 1vw;
+    size: 2rem;
+    border: solid 0.05rem white;
+    background-color: #09ac88;
+    -webkit-user-select: none; 
+    -moz-user-select: none;     
+    -ms-user-select: none;     
+    user-select: none; 
+}
+
+.content span:hover ,.content span:focus ,.content span.selected {
+    background-color: #036852;
+}
+
+.content span:active {
+    background-color: #09ac88;
+}
+
+@media (max-width: 1026px) {
+    #title {
+        margin-left: 8vw;
+        margin-right: 4vw;
+    }
+}
+@media (max-width: 842px) {
+    #title {
+        width: 85%;
+        text-align: center;
+    }
+    .navbar {
+        height:10rem;
+
+    }
+    #pages {
+        width: 95%;
+        text-align: center;  
+    }
+}
+
+@media (max-width: 400px) {
+
+    .navbar {
+        height:auto;
+
+    }
+    li {
+        margin-bottom: 3rem;
+    }
+}

@@ -1,0 +1,141 @@
+ul {
+    display: inline-block;
+}
+
+.visualizer-nav {
+    background-color: #0e9c7e9a;
+    padding: 0.3rem;
+}
+
+.algorithms {
+    margin-left: 2rem;
+}
+
+.algorithms li {
+    margin: 0rem 3rem;
+}
+
+.algorithms span {
+    font-size: 0.9rem;
+    color: white;
+    background-color:  #0e9c7e9a;
+    padding: 0.5rem 1rem;
+    -webkit-user-select: none; 
+    -moz-user-select: none;     
+    -ms-user-select: none;     
+    user-select: none; 
+}
+
+.algorithms span:hover ,.algorithms span:focus ,.algorithms span.selected {
+    background-color:  #0866529a;
+}
+
+.algorithms span:active {
+    background-color:  #0e9c7e9a;
+}
+
+
+.grid-options {
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.grid-options span {
+    font-size: 0.9rem;
+    color: white;
+    background-color:  #0e9c7e9a;
+    padding: 0.5rem 1rem;
+    -webkit-user-select: none; 
+    -moz-user-select: none;     
+    -ms-user-select: none;     
+    user-select: none; 
+}
+
+#controls-disabled span {
+    background-color:  gray;
+}
+
+.grid-options span:hover ,.grid-options span:focus ,.grid-options span.selected {
+    background-color:  #0866529a;
+}
+
+.grid-options span:active {
+    background-color:  #0e9c7e9a;
+}
+
+.grid-options li {
+    margin: 0rem 1vw;
+}
+
+
+.grid-controls {
+    margin-left: 10vw;
+}
+
+.grid {
+    margin-top: 1rem;
+    margin-left: 5vw;
+}
+
+td {
+    border: 0.1rem solid #0e9c7e9a;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.playError {
+    text-align: center;
+    color: red;
+}
+
+.Visited {
+    background-color: lightgoldenrodyellow;
+}
+
+.Path {
+    background-color: rgb(248, 248, 90);
+}
+
+.Empty {
+    background-color: white;
+}
+
+.Start {
+    background-color: lightgreen;
+}
+
+.End {
+    background-color: lightcoral;
+}
+
+.Obstacle {
+    background-color: gray;
+}
+
+
+@media (max-width: 1026px) {
+    .grid-controls {
+        margin-left: 0vw;
+    }
+}
+
+@media (max-width: 845px) {
+    .algorithms {
+        margin-left: 0rem;
+    }
+    .algorithms li {
+        margin: 1rem 2rem;
+    }
+    .visualizer-nav {
+        text-align: center;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 325px) {
+    .grid-options li {
+        margin: 0.75rem 1vw;
+    }
+}
+

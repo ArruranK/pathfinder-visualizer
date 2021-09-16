@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ArruranK/pathfinder-visualizer.git/static/css/main.711e445f.chunk.css",
+    "main.js": "/ArruranK/pathfinder-visualizer.git/static/js/main.366c1d8e.chunk.js",
+    "main.js.map": "/ArruranK/pathfinder-visualizer.git/static/js/main.366c1d8e.chunk.js.map",
+    "runtime-main.js": "/ArruranK/pathfinder-visualizer.git/static/js/runtime-main.dbe0d9a3.js",
+    "runtime-main.js.map": "/ArruranK/pathfinder-visualizer.git/static/js/runtime-main.dbe0d9a3.js.map",
+    "static/js/2.9a1d21c5.chunk.js": "/ArruranK/pathfinder-visualizer.git/static/js/2.9a1d21c5.chunk.js",
+    "static/js/2.9a1d21c5.chunk.js.map": "/ArruranK/pathfinder-visualizer.git/static/js/2.9a1d21c5.chunk.js.map",
+    "index.html": "/ArruranK/pathfinder-visualizer.git/index.html",
+    "static/css/main.711e445f.chunk.css.map": "/ArruranK/pathfinder-visualizer.git/static/css/main.711e445f.chunk.css.map",
+    "static/js/2.9a1d21c5.chunk.js.LICENSE.txt": "/ArruranK/pathfinder-visualizer.git/static/js/2.9a1d21c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbe0d9a3.js",
+    "static/js/2.9a1d21c5.chunk.js",
+    "static/css/main.711e445f.chunk.css",
+    "static/js/main.366c1d8e.chunk.js"
+  ]
+}
